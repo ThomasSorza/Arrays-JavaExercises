@@ -24,7 +24,7 @@ public class Triangulars{
         int k = 0;
         for(int i = 0; i < m.length; i++){
             for(int j = 0 ; j < m[0].length; j++){
-                if(j>i){ // Top triangular
+                if(j>i){ // Top triangular(principal diag)
                     sumT += m[i][j];
                     top[z] = m[i][j];
                     z++;
